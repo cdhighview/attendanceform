@@ -187,19 +187,19 @@ function autoSelectTime(service_type) {
         case "Prayer Meeting": {
             $('#time-attended option:contains("4:30 AM")').attr('selected', true);
             $('#platform option:selected').attr('selected', false);
-            $('#platform option:contains("Zoom")').attr('selected', true);
+            $('#platform option:contains("MCGI Highview Hills")').attr('selected', true);
             break;
         }
         case "Worship Service": {
             $('#time-attended option:contains("4:30 AM")').attr('selected', true);
             $('#platform option:selected').attr('selected', false);
-            $('#platform option:contains("Zoom")').attr('selected', true);
+            $('#platform option:contains("MCGI Highview Hills")').attr('selected', true);
             break;
         }
         case "Thanksgiving": {
             $('#time-attended option:contains("5:00 PM")').attr('selected', true);
             $('#platform option:selected').attr('selected', false);
-            $('#platform option:contains("Zoom")').attr('selected', true);
+            $('#platform option:contains("MCGI Highview Hills")').attr('selected', true);
             break;
         }
         case "Mass Indoctrination": {
